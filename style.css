@@ -10,3 +10,18 @@
 section {
   padding-top: 5rem;
 }
+
+.nav-link :hover {
+  color: #479fe7;
+}
+
+.hover-zoom img {
+  transition: transform 3s, filter 1.5s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(50%);
+}
+
+.hover-zoom:hover img {
+  filter: brightness(100%);
+  transform: scale(1.1);
+}
